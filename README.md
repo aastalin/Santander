@@ -33,6 +33,18 @@ $ python integrateNN_2.py # smaller hiddle node
 $ python predict.py
 ```
 </br>
+##2. Concept
+Use five small nn to model different type user, including
+```
+> sexo
+> age
+> new
+> relation
+> segment
+```
+Then integrate five nn with trainable weighted sum
+Y = w0*Ysexo + w1*Yage + w2*Ynew + w3*Yrel + w4*Yseg
+</br>
 </br>
 </br>
 </br>
